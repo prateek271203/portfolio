@@ -1,9 +1,6 @@
 import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
-  // Netlify ke liye static export
-  output: 'export',
-
   typescript: {
     ignoreBuildErrors: true,
   },
